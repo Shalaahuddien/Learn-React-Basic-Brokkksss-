@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import Introduction from './components/introduction.js';
+import Profile from './components/profile.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+    <>
+      {/* <header> */}
+
+
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,9 +20,24 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+
+        {/* <nav>TESTING</nav>
+
       </header>
-    </div>
+
+        <section>
+          <h1>HELLO BRADER SESI 1 SEMESTER</h1>
+        </section> */}
+
+        <h1>Sesi 1</h1>
+        <p>halo saya belajar dari sesi 1 ini</p>
+
+        <Profile />
+
+        <Introduction name="Dea Afrizal"/>
+        <Introduction name="Daffa Ganteng"/>
+    </>
   );
 }
 
